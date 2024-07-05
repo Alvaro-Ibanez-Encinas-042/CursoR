@@ -1,0 +1,56 @@
+---
+title: "Untitled"
+author: "Alvaro Ibañez Encinas"
+date: "2024-07-05"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Esta linea de codigo es la funcion que permite la instalacion de paquetes
+
+```{r}
+# Instalar un paquete en R: ggplot2, paquete de visualizaciÃ³n de datos y dplyr paquete de manipulacion de datos
+
+#para conocer que paquetes tenemos instalados
+
+```
+
+La funcion que permite instalar el paquete "ggplot2", que permite generar graficas
+
+Una vez instalado, es necesaria esta funcion para su puesta en marcha
+
+Para las operaciones basicas, basta con introducir los operadores
+
+```{r}
+##sumar y restar
+
+3+5-1
+
+#Multiplica
+
+3*5
+
+#divide
+
+5/2
+
+#calcula la potencia 4^2
+
+4^2
+
+```
+
+Para las aignaciones de valor, usaremos "=". A mi me gusta mas la segunda opcion
+
+```{r}
+a = 1
+
+c <- 3
+
+```

@@ -1,0 +1,92 @@
+---
+title: "Curso R - Dia 5"
+author: "Alvaro Ibañez Encinas"
+date: "2024-07-05"
+output: html_document
+---
+
+
+
+```{r setup, include= TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Esta linea de codigo es la funcion que permite la instalacion de paquetes
+```{r}
+# Instalar un paquete en R: ggplot2, paquete de visualizaciÃ³n de datos y dplyr paquete de manipulaciÃ³n de datos
+
+#para conocer quÃ© paquetes tenemos instalados
+
+installed.packages()
+```
+
+La funcion que permite instalar el paquete "ggplot2", que permite generar graficas
+
+
+```{r}
+#instalar el paquete ggplot2 si en el caso no lo tuviese previamente instalado. Solo es necesario hacerlo una vez. 
+
+install.packages("ggplot2")
+```
+
+Una vez instalado, es necesaria esta funcion para su puesta en marcha
+
+```{r}
+#Cargar el paquete ya instalado
+
+library(ggplot2)
+library(dplyr)
+```
+
+Para las operaciones basicas, basta con introducir los operadores
+
+```{r}
+##sumar y restar
+
+3+5-1
+
+#Multiplica
+
+3*5
+
+#divide
+
+5/2
+
+#calcula la potencia 4^2
+
+4^2
+
+```
+
+Para las aignaciones de valor, usaremos "=" o "<-". A mi me gusta mas la segunda opcion
+```{r}
+a = 1
+
+c <- 3
+
+```
+
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
